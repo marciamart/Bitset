@@ -8,15 +8,17 @@ Linguaguem C
 testado e compilado com Ubuntu 20.04 e gcc 9.4
 
 ## *como utilizar:*
+* para compilar é nessário que o gcc 9.4 teja instalado
 1. clone o projeto:
 copie e cole o comando abaixo no seu terminal:
 ```
-git clone 
+git clone https://github.com/marciamart/Bitset
 ```
-### `compile e execute` desta maneira: 
+2. `compile e execute` desta maneira: 
 
 ```
-gcc nome.c -o nome_do_executavel
-./nome_do_executavel
+cd Bitset
+gcc bitset.c -o bitset
+./bitset
 ```
 
