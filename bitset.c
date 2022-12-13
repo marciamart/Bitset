@@ -14,13 +14,13 @@ int main (){
       k[i] = 0;
    }
 
+   printf("digite os valores que deseja ordenar entre 0 e 5000, e -1 para executar:\n");
    while(x != -1){ // enquanto nao for -1, sera armazenado o valor dentro do seu bit representado no vetor 
-      printf("digite os valores que deseja ordenar entre 0 e 5000, e -1 para executar:\n");
       scanf("%d", &x);
 
       if(x != -1 && x >= 0 && x <= 5000){//for para armazenamento dos numeros digitados em cada bit representado por ele 
          w = x/32;
-         j = 1 << (x-(32*w));
+         j = 1 << (x-(32*w));         
          k[w] = k[w] | j;
       }
    }
